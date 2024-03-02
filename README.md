@@ -58,8 +58,7 @@ To create standalone executables for the game, you can use PyInstaller, a Python
     Without --noconsole flag: pyinstaller number_guessing_game.py
     This command creates a standalone executable from the number_guessing_game.py script. If your game logic is contained within this script, this command will generate an executable for your game.
 
-After running one of these commands, PyInstaller will create the dist folder containing the standalone executables for your game. You can then distribute these executables to users who want to play your game without needing to install Python or any dependencies.
-
+After running one of these commands, PyInstaller will create the dist folder containing the standalone executables for your game. 
 
 Credits
 
