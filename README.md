@@ -28,6 +28,25 @@ Requirements
     Python 3.x
     Pygame library
 
+Using the Repository
+
+    Clone the repository: git clone https://github.com/your-username/number-guessing-game.git
+    Navigate to the project directory: cd number-guessing-game
+    Ensure you have Python installed.
+    Install Pygame library: pip install pygame
+    To generate the dist folder and executable file, run the appropriate build command (e.g., PyInstaller) on your local machine.
+
+.gitignore
+
+The .gitignore file in this repository excludes the following folders from version control:
+
+    dist/: Contains generated executable files.
+    build/: Contains build artifacts.
+    venv/: Contains virtual environment files.
+    
+    Users are encouraged to generate the dist folder themselves by running the appropriate build command (e.g., PyInstaller) on their local machine. This ensures that the executable file is generated based on their specific
+    environment and needs.
+
 Credits
 
     Developed by Shaimoom Shahriar
