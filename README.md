@@ -47,6 +47,20 @@ The .gitignore file in this repository excludes the following folders from versi
     Users are encouraged to generate the dist folder themselves by running the appropriate build command (e.g., PyInstaller) on their local machine. This ensures that the executable file is generated based on their specific
     environment and needs.
 
+Building Standalone Executables
+
+To create standalone executables for the game, you can use PyInstaller, a Python packaging tool that bundles Python applications into standalone executables. Two common commands are provided below:
+
+    Using --noconsole flag: pyinstaller --noconsole number_guessing_game.py
+    This command creates a standalone executable from the number_guessing_game.py script without displaying a console window. If your game does not require user input or output to the console, this flag can be useful to
+    hide the console window when the game is running.
+
+    Without --noconsole flag: pyinstaller number_guessing_game.py
+    This command creates a standalone executable from the number_guessing_game.py script. If your game logic is contained within this script, this command will generate an executable for your game.
+
+After running one of these commands, PyInstaller will create the dist folder containing the standalone executables for your game. You can then distribute these executables to users who want to play your game without needing to install Python or any dependencies.
+
+
 Credits
 
     Developed by Shaimoom Shahriar
